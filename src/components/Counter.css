@@ -1,0 +1,11 @@
+.positive {
+  color: red;
+}
+
+.negative {
+  color: blue;
+}
+.counter {
+  text-align: center;
+  font-size: 30px;
+}

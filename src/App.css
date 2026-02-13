@@ -1,0 +1,12 @@
+.profile-card {
+  background-color: aliceblue;
+  padding: 10px;
+  width: 400px;
+  border-radius: 50px;
+  border: 1px solid gold;
+  align-items: center;
+}
+.profile-card img {
+  display: flex;
+  border-radius: 40px;
+}

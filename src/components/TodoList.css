@@ -1,0 +1,107 @@
+/* 전체 컨테이너 */
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #e0dbdb;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+/* 입력 영역 */
+.input-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.input-box input:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+.input-box button:hover {
+  background: #6d28d9;
+}
+.btn {
+  padding: 10px 10px;
+  background: tomato;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.alldeletebtn {
+  color: black;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.deleteComplete {
+  color: black;
+  background: rgb(109, 219, 76);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+/* 할일 목록 */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-list li span {
+  flex: 1;
+}
+
+.todo-list li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.todo-list li button:hover {
+  opacity: 1;
+}
+
+/* 완료 상태 */
+.todo-list li.completed span {
+  color: #999;
+  text-decoration: line-through;
+}
+.todo-footer {
+  height: 30px;
+  width: 120px;
+  color: black;
+  background: #e0dbdb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
